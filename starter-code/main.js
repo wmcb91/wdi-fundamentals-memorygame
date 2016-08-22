@@ -7,11 +7,11 @@ var cardThree = 'king';
 var cardFour = 'king';
 
 // setting the number of cards for java to create
-var numOfCArds = 4;
+var numOfCards = 4;
 
 //creating function
 var createBoard = function (){
-for (var i = 1, i < numOfCArds, i +=1)
+for (var i = 1; i<'numOfCards'; i +=1)
 	var newCard = document.createElement('div');
 	newCard.classname = 'card';
 	document.getElementbyId('game-board')[0].appendChild(newCard);
